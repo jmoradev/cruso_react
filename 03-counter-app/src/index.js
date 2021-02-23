@@ -5,4 +5,4 @@ import './index.css';
 
 const RootDiv = document.querySelector('#root');
 
-ReactDOM.render(<PrimeraApp />, RootDiv)
+ReactDOM.render(<PrimeraApp saludo="saludo desde padre" />, RootDiv)

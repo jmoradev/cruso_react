@@ -1,9 +1,11 @@
 import React from 'react'
 
-const PrimeraApp = ()=>{
+
+const PrimeraApp = ({ saludo }) => {
+
     return (
         <>
-            <h1>Hola mundo</h1>
+            <h1>{saludo}</h1>
             <p>uso del fragment</p>
         </>
     );
