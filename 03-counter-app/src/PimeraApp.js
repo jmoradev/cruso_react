@@ -1,5 +1,5 @@
 import React from 'react'
-
+import PropTypes from "prop-types";
 
 const PrimeraApp = ({ saludo }) => {
 
@@ -10,5 +10,11 @@ const PrimeraApp = ({ saludo }) => {
         </>
     );
 };
+
+PrimeraApp.propTypes = {
+    saludo: PropTypes.string,
+    nombre: PropTypes.string,
+    edad: PropTypes.number.isRequired
+}
 
 export default PrimeraApp;
