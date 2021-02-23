@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import PrimeraApp from './PimeraApp'
+import './index.css';
 
 const RootDiv = document.querySelector('#root');
-const saludo = <h1>saludo desde la etiqueta</h1>;
 
-console.log(RootDiv);
-
-ReactDOM.render(saludo,RootDiv)
+ReactDOM.render(<PrimeraApp />, RootDiv)
